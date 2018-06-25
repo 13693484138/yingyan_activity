@@ -1,0 +1,95 @@
+@import "../../App.scss";
+.infoCard{
+    width:100%;
+    height:rem(425);
+    background-color:#151515;
+    color:#fff;
+    text-align:center;
+    .imgava{
+    width:rem(170);
+    height:rem(170);
+    margin:rem(20) 0 0 0;
+    border:4px solid #e2b558;
+    border-radius: 50%;
+    }
+    p{
+        margin:rem(14);
+        font-size:rem(24);
+    }
+    span{
+        font-size:rem(26);
+        margin:rem(5);
+        border-radius:rem(5);
+        padding:rem(2) rem(6);
+        height:rem(26);
+        line-height:rem(26);
+    }
+    .imgicon{
+        height:rem(24);
+        width:rem(24);
+        
+    }
+}
+.myModel .am-modal-content{
+    border:2px solid #febf00;
+    background-color:#fff8ec;
+    .contentma1{
+//  height:rem(60);
+//  width:rem(200);
+    border:2px solid #c9973d !important;
+    color:#c9973d;
+    background-color:#fff8ec;
+    margin-right:40px;
+    }
+    .contentma2{
+//      height:rem(60);
+//      width:rem(200);
+        background-color:#c9973d;
+        color:#000;
+    }
+}
+.btnimg1{
+    width:rem(35);
+    height:rem(28);
+}
+.zpzsBtn{
+    width:rem(260);
+    height:rem(66);
+    line-height:rem(66);
+    border-radius:0;
+    background-color:#34d3cb;
+    color:#fff;
+    border:2px solid #bbf7f4 !important;
+    margin:rem(30) auto;
+    font-size:rem(28);
+}
+.imgdiv{
+    width:rem(485);
+    height:rem(515);
+    border-radius:rem(10);
+    background-color:#eeeeee;
+    margin: auto;
+    font-size:rem(26);
+    text-align: center;
+    img{
+        width:rem(300);
+        height:rem(300);
+        margin:rem(40) 0 0 0;
+    }
+} 
+.cxscBtn{
+    width:rem(560);
+    height:rem(70);
+    background-color:#34d3cb;
+    color:#fff;
+    font-size:rem(30);
+    margin:rem(30) auto;
+    line-height:rem(70); 
+    }
+.change{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}

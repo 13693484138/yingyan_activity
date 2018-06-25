@@ -1,0 +1,21 @@
+@import "../../App.scss";
+.am-search{
+  background: none;
+  border-radius: rem(10);
+  .am-search-input{
+    border-radius: rem(10);
+  }
+  .am-search-cancel{
+    width: rem(120);
+    height: rem(52);
+    text-align: center;
+    line-height: rem(52);
+    color: #343434;
+    background-color: #ffffff;
+    border-radius: rem(10);
+    margin-left: rem(20);
+  }
+}
+.ys-bg{
+    background-color: #000000;
+  }

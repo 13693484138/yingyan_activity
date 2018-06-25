@@ -1,0 +1,60 @@
+@import "../../App.scss";
+.my-list{
+    margin-top:10px;
+}
+.themeColor{
+    color:"#34d3cb"
+}
+.ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+}
+.czBtn{
+   background-color:#34d3cb;
+   border-radius:rem(26);
+   vertical-align:middle;
+   height:rem(55);
+   line-height:rem(55);
+   color:white;
+}
+.dhBtn{
+    background-color:#34d3cb;
+    color:white;
+    width:94%;
+    margin:auto;
+    height:rem(80);
+    line-height:rem(80);
+    font-size:rem(30);
+}
+ul{
+    list-style: none;
+    padding:rem(30);
+    font-size:rem(30) ;
+    li{
+        font-size:rem(28) ;
+    }
+}
+.pclass{
+    font-size:rem(30);
+    color:#000
+}
+.font28{
+    font-size:rem(28);
+}
+.am-stepper-handler-active{
+    background-color:#fff;
+}
+.ant-layout-sider-collapsed .nav-text {
+    display: none;
+}
+.ant-row{
+    padding:10px 0;
+}
+.am-stepper{
+    padding:0;
+}
+.am-stepper-handler{
+    border:none;
+}
+.ant-col-12,.ant-col-8,.ant-col-6{
+    border:1px solid #00A0E9
+}

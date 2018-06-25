@@ -1,0 +1,231 @@
+@import "../../App.scss";
+body {
+  .rankList{
+        background-color: #000000;
+    }
+  .rankList .myModel .am-modal-content{
+    border:2px solid #febf00;
+    background-color:#fff8ec;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: rem(578);
+    .contentma2,.contentma1{
+      width: rem(214);
+      height: rem(54);
+      line-height: rem(54);
+      vertical-align: middle;
+    }
+    p{margin: 0}
+    .pop-img{
+      width: rem(140);
+      height: rem(140);
+      margin: 0 auto;
+      display: block;
+      border: rem(8) solid #e8c563;
+      border-radius: 50%;
+      margin-top: rem(100);
+    }
+    .pop-img-name{
+      margin-top: rem(30);
+    }
+    .pop-buttom{
+      margin-top: rem(100);
+    }
+  .imgwhc{
+    height:rem(45);
+    width:rem(45);
+  }
+  }
+  .listLang{
+    margin-top: rem(26);
+    white-space:nowrap;text-overflow:ellipsis;word-break:break-all;overflow:hidden;
+  }
+  .listBottom{
+    width: rem(122);
+    height: rem(48);
+    line-height: rem(48);
+    text-align: center;
+    background-color: #34d3cb;
+    border-radius: rem(24);
+    float: left;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    color: #ffffff;
+    font-size: rem(24);
+    vertical-align: middle;
+  }
+  .listText{
+    width: rem(340);
+    overflow: hidden;
+    white-space:nowrap;text-overflow:ellipsis;word-break:break-all;overflow:hidden;
+  }
+  .listTitle{
+    background:url("../../imgs/listTit.png") no-repeat;
+    width: rem(76);
+    height: rem(75);
+    background-size: 100%;
+    color: #ffffff;
+
+    position: absolute;
+    left: 0;
+    top:0;
+    .listSpan{
+      margin-top: rem(10);
+      margin-left: rem(14);
+      display: inline-block;
+      font-size: rem(24);
+    }
+  }
+  .listImg{
+    border: rem(8) solid #e8c563;
+    border-radius: 50%;
+    margin-left: rem(50);
+    margin-right: rem(10);
+  }
+  .am-list-body{
+    background-color: #000000;
+  }
+  overflow: hidden;
+
+  .ranking {
+    
+    overflow: hidden;
+    background: url("../../imgs/rangking.png");
+    width: rem(720);
+    height: rem(400);
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: rem(11);
+    color: #ffffff;
+    .ranking-two {
+      float: left;
+      .ranking-img {
+        position: relative;
+        img:first-child {
+          width: rem(150);
+          height: rem(150);
+          position: absolute;
+          top: 35px;
+          left: 50%;
+          transform: translate(-50%, 0);
+        }
+        img:last-child {
+          width: rem(100);
+          height: rem(99);
+          margin-top: rem(90);
+        }
+      }
+
+      width: rem(239);
+      text-align: center;
+      .ranking-name {
+        font-size: rem(22);
+        margin-top: rem(20);
+      }
+      .ranking-id {
+        font-size: rem(20);
+        color: #8d8d8d;
+        margin-top: rem(16);
+      }
+      .ranking-shu {
+        font-size: rem(20);
+        color: #f7ce67;
+        margin-top: rem(10);
+      }
+      .ranking-buttom {
+        font-size: rem(26);
+        color: #343434;
+        margin-top: rem(17);
+        width: rem(151);
+        height: rem(46);
+        display: inline-block;
+        line-height: rem(46);
+        background-color: #ffeb54;
+        border-radius: 2px;
+      }
+    }
+    .ranking-one {
+      float: left;
+      width: rem(241);
+      text-align: center;
+      img {
+        width: rem(210);
+        height: rem(210);
+        margin-top: rem(16);
+      }
+      .ranking-name {
+        font-size: rem(28);
+        margin-top: rem(-24)
+      }
+      .ranking-id {
+        font-size: rem(20);
+        color: #8d8d8d;
+        margin-top: rem(16);
+      }
+      .ranking-shu {
+        font-size: rem(20);
+        color: #f7ce67;
+        margin-top: rem(10);
+      }
+      .ranking-buttom {
+        font-size: rem(26);
+        color: #343434;
+        margin-top: rem(17);
+        width: rem(151);
+        height: rem(46);
+        display: inline-block;
+        line-height: rem(46);
+        background-color: #ffeb54;
+        border-radius: 2px;
+      }
+    }
+    .ranking-shui {
+      width: rem(239);
+      text-align: center;
+      float: left;
+      .ranking-img {
+        position: relative;
+        img:first-child {
+          width: rem(150);
+          height: rem(150);
+          position: absolute;
+          top: 35px;
+          left: 50%;
+          transform: translate(-50%, 0);
+        }
+        img:last-child {
+          width: rem(100);
+          height: rem(99);
+          margin-top: rem(90);
+        }
+      }
+      .ranking-name {
+        font-size: rem(22);
+        margin-top: rem(20);
+      }
+      .ranking-id {
+        font-size: rem(20);
+        color: #8d8d8d;
+        margin-top: rem(16);
+      }
+      .ranking-shu {
+        font-size: rem(20);
+        color: #f7ce67;
+        margin-top: rem(10);
+      }
+      .ranking-buttom {
+        font-size: rem(26);
+        color: #343434;
+        margin-top: rem(17);
+        width: rem(151);
+        height: rem(46);
+        display: inline-block;
+        line-height: rem(46);
+        background-color: #ffeb54;
+        border-radius: 2px;
+      }
+    }
+  }
+}

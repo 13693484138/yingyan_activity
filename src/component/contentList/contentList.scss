@@ -1,0 +1,129 @@
+@import "../../App";
+.am-search-cancel{
+  padding-left:0;
+}
+.content-ys {
+  width: 100%;
+  background-color: #000000;
+  position: absolute;
+  left:0;
+  top:80px;
+  bottom:0;
+  right:0;
+  .content-list:nth-child(2n-1){
+    width: rem(327);
+    float: left;
+    margin-top: rem(26);
+    .contentma1 {
+      width: rem(140);
+      height: rem(36);
+      border: 2px solid #ffeb54 !important;
+      background-color: #000000 !important;
+      color: #ffeb54;
+      font-size: rem(12);
+      line-height: rem(32);
+      margin-right: rem(15);
+      margin-top: rem(10);
+      padding: 0;
+      vertical-align: middle;
+    }
+    .contentma2 {
+      width: rem(140);
+      height: rem(36);
+      background-color: #ffeb54 !important;
+      color: #000000;
+      font-size: rem(12);
+      line-height: rem(36);
+      margin-left: rem(15);
+      margin-top: rem(10);
+      padding: 0;
+      vertical-align: middle;
+    }
+    .contentma2 {
+      width: rem(140);
+      height: rem(36);
+    }
+    .content-list-co {
+      width: rem(327);
+      height: rem(360);
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 5px;
+      .content-name-bar {
+
+        span{
+          height: rem(45);
+          display: block;
+          width: rem(305);
+          margin: 0 auto;
+          overflow: hidden;
+        }
+      }
+      .content-img {
+        width: rem(306);
+        height: rem(306);
+        margin: rem(10);
+        margin-bottom: rem(2);
+      }
+    }
+  }
+  .content-list:nth-child(2n){
+    width: rem(327);
+    float: right;
+    margin-top: rem(26);
+    .contentma1 {
+      width: rem(140);
+      height: rem(36);
+      border: 2px solid #ffeb54 !important;
+      background-color: #000000 !important;
+      color: #ffeb54;
+      font-size: rem(12);
+      line-height: rem(32);
+      margin-right: rem(15);
+      margin-top: rem(10);
+      padding: 0;
+      vertical-align: middle;
+    }
+    .contentma2 {
+      width: rem(140);
+      height: rem(36);
+      background-color: #ffeb54 !important;
+      color: #000000;
+      font-size: rem(12);
+      line-height: rem(36);
+      margin-left: rem(15);
+      margin-top: rem(10);
+      padding: 0;
+      vertical-align: middle;
+    }
+    .contentma2 {
+      width: rem(140);
+      height: rem(36);
+    }
+    .content-list-co {
+      width: rem(327);
+      height: rem(360);
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 5px;
+      .content-name-bar {
+
+        span:first-child {
+          margin-left: rem(20);
+          float: left;
+        }
+        span:last-child {
+          float: right;
+          margin-right: rem(20);
+          color: #34d3cb;
+        }
+      }
+      .content-img {
+        width: rem(306);
+        height: rem(306);
+        margin: rem(10);
+        margin-bottom: rem(2);
+      }
+    }
+  }
+}

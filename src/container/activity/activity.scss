@@ -1,0 +1,90 @@
+@import "../../App.scss";
+html,body,#root,#root>div,.cdiv{
+    height:100%;
+}
+.cdiv{
+    display: flex;
+    flex-direction:column;
+}
+.content_zq{
+    background-image: url(../../imgs/bg.png);
+    background-size:100% 100%;
+    flex:1; 
+}
+.myModel .am-modal-content{
+    border:2px solid #febf00;
+    background-color:#fff8ec;
+}
+.am-navbar-light{
+    color:#000
+}
+.contentdiv{
+    position: absolute;
+    bottom:rem(125); 
+    width: 100%;
+    text-align: center;
+} 
+.imgwhc{
+    height:rem(45);
+    width:rem(45); 
+}
+.contenta{
+        width:rem(180);
+        height:rem(60);
+        line-height:rem(60);
+        background-color:#ca9940 ;
+        border-radius:rem(30);
+        color:#0f0f0f;
+        margin:rem(20);
+        border:0; 
+        font-size:rem(28);
+    }
+.contentma1{
+    border:2px solid #c9973d !important;
+    color:#c9973d;
+    background-color:#fff8ec;
+    margin-right:40px;
+    
+}
+.contentma2{
+    background-color:#c9973d;
+    color:#000;
+}
+
+.contentma3{
+    border:1px solid #000 !important;
+    background-color:#c9973d;
+    color:#000;
+    margin-top:10px;
+    border-radius:15px;
+}
+.color000{
+    color:#000;
+}
+.imgwh{
+    width:80%;
+    height:150px;
+    margin:auto;
+}
+.am-modal-body{
+    line-height:0.6;
+}
+.am-checkbox-agree .am-checkbox-agree-label{
+    font-size: 13px;
+}
+.am-checkbox-agree .am-checkbox{
+    margin-left:10px;
+}
+.am-checkbox-inner{
+    height:15px;
+    width:15px;
+}
+.am-checkbox-inner:after{
+    right: 3px;
+    width: 6px;
+    height: 8px;
+}
+.am-checkbox.am-checkbox-checked .am-checkbox-inner {
+    border-color: #000;
+    background: #000;
+}
